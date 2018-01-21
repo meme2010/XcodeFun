@@ -26,7 +26,7 @@ class HeroViewController: UIViewController {
         nameLabel.text = hero?.localized_name
         attackLabel.text = hero?.primary_attr
         attackLabel.text = hero?.attack_type
-        legsLabel.text = "\(hero?.legs)"
+        legsLabel.text = "\((hero?.legs)!)"
     }
     
     
